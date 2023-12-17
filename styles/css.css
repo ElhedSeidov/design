@@ -1,0 +1,238 @@
+body
+{
+    background-color: rgb(43, 67, 70);
+}
+
+.image
+{
+
+    height: 350px;
+
+    margin: auto;
+    width: 80%;
+    background-image: url("../image/image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 2px 5px 10px -2px whitesmoke; 
+    color: whitesmoke;
+}
+.words
+{
+    margin-left: 70px;
+    padding-top: 60px;
+}
+
+.navbartop ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(32, 56, 59);
+  width: 80%;
+  margin: auto;
+  display: flex;
+  
+}
+header
+{
+    margin-bottom: 20px;
+}
+.navbartop li
+{
+    
+    float: left;
+    
+    
+}
+.navbartop li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+     
+    text-decoration: none;
+    padding-bottom: 14px;
+    padding-top: 20px;
+    padding-left: 44px;
+    transition: all 0.4s;
+  
+}
+
+.navbartop li a span:not(.border)
+{
+    padding-right: 44px;
+    border-right : 1px solid whitesmoke;
+}
+.navbartop li .bigger 
+{
+   
+    padding-right: 277px;
+   
+    
+    display: block;
+    
+}
+.navbartop li a:hover
+{
+   background-color:rgb(17, 31, 33);
+}
+
+.mainmenu
+{
+    color: whitesmoke;
+    font-weight: 800;
+}
+.vertical
+{
+    list-style: none;
+}
+.vertical a
+{
+    
+    color: whitesmoke;
+}
+.vertical li::before
+{
+    content: "\78";
+    color: whitesmoke;
+}
+.vertical li
+{
+    margin-bottom: 10px;
+}
+
+.content
+{
+    display: flex;
+}
+
+.line
+{
+    width: 82%;
+    margin-right: 200px;
+    margin-top: -5px;
+}
+.f
+{
+    width: 20%;
+    float: left;
+    margin-left: 160px;
+    margin-right: 100px;
+    color: whitesmoke;
+}
+
+.f .vertical
+{
+    margin-right: 30px;
+   
+    border: 1px solid rgb(51, 77, 85);
+}
+.s
+{
+    width: 65%;
+    float: right;
+    margin-top: -15px;
+}
+.text
+{
+    width: 84%;
+    color: whitesmoke;
+}
+.gallery
+{
+    color: whitesmoke;
+    font-size: 31px;
+}
+
+.subsect
+{
+    display: flex;
+}
+.left
+{
+    width: 33%;
+    padding-right: 30px;
+    margin-right: 20px;
+    border-right: 1px solid rgba(200, 239, 229,0.2);
+}
+.subscr
+{
+    color: whitesmoke;
+    font-size: 29px;
+    font-weight: 100;
+    
+}
+.text21
+{
+    color: whitesmoke;
+}
+
+.other
+{
+    color: whitesmoke;
+    font-size: 29px;
+    font-weight: 100;
+}
+.text22
+{
+     color: whitesmoke;
+}
+
+.right
+{
+    width: 33%;
+}
+
+.butlink1
+{
+    background-color: rgb(93, 152, 153);
+  border: none;
+  color: rgb(2, 50, 50);
+  padding: 8px 23px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 4px 2px;
+  border-radius: 5px;
+  transition: all 0.5s;
+  
+}
+.butlink1:hover
+{
+    background-color:rgb(28, 40, 62) ;
+    color: white;
+}
+
+
+.bltext
+{
+    border-left: 1px solid rgb(51,77,85);
+    padding-left: 5px;
+    border-bottom: 1px solid rgb(51,77,85);
+    padding-bottom: 5px;
+    
+}
+
+.botline
+{
+    border-style: solid;
+    background-color:rgb(51,77,85) ;
+    color:rgb(51,77,85) ;
+    width: 80%;
+}
+
+.block
+{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.bottext
+{
+    font-size: 17px;
+    color: whitesmoke;
+    text-align:center ;
+}
